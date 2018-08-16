@@ -28,7 +28,7 @@ replacement.
 Doing so will result in the following command:
 
 ```console
-foo@bar:~ $ python2 -m timeit "from sort import bubble_sort as sort, random_seq; print sort(random_seq)"
+foo@bar:~ $ python2 -m timeit "from sort import merge_sort as sort, random_seq; print sort(random_seq)"
 ```
 
 ## cProfile
