@@ -30,6 +30,7 @@ Doing so will result in the following command:
 ```console
 foo@bar:~ $ python2 -m timeit "from sort import merge_sort as sort, random_seq; print sort(random_seq)"
 ```
+Special Note when running your timing profile on the **bubble_sort** algorithm:  Don't give up! Your computer is not stalled in an infinite loop.  Waaaaaiiiiiitttttt for it ....
 
 ## cProfile
 You can measure the performance of all algorithms by using the cProfile module
