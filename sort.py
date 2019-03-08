@@ -9,6 +9,7 @@ import random
 random_seq = range(5000)
 random.shuffle(random_seq)
 
+
 def bubble_sort(seq):
     d_seq = deepcopy(seq)
     changed = True
